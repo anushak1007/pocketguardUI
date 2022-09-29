@@ -63,7 +63,7 @@ function getAccountType(e){
       </div>
       <div className="form-group">
           <label>DOB</label>
-          <input type="date" value="2000-07-22" className="form-control" onChange={getDob} placeholder="Enter your DOB"></input>
+          <input type="date" className="form-control" onChange={getDob} placeholder="Enter your DOB"></input>
       </div>
      <div className="form-group">
           <label>Email</label>
